@@ -23,8 +23,8 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
 
-                String color = spinnerBeerColors.getSelectedItem().toString();
-                tvBrands.setText(getBeers(color));
+                String colorNew = spinnerBeerColors.getSelectedItem().toString();
+                tvBrands.setText(getBeers(colorNew));
             }
         });
     }
