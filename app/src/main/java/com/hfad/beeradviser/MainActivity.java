@@ -25,7 +25,6 @@ public class MainActivity extends AppCompatActivity {
 
                 String color = spinnerBeerColors.getSelectedItem().toString();
                 tvBrands.setText(getBeers(color));
-
             }
         });
     }
