@@ -36,7 +36,9 @@ public class MainActivity extends AppCompatActivity {
             return "Jack Amber\nRed Moose";
         else if (color.equals("Brown"))
             return "Brown Bear Beer\nBock Brownie";
-        else
+        else if (color.equals("Dark"))
             return "Gout Stout\nDark Daniel";
+        else
+            return "Young Melon\nBright Lake";
     }
 }
